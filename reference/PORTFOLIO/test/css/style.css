@@ -1,0 +1,185 @@
+p {
+  margin: 0;
+  color: black;
+}
+
+p.button {
+  margin: 0;
+  color: white;
+}
+
+p.light {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+}
+
+p.bold {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+}
+
+p:hover {
+  color: black;
+}
+
+.icon.devicon-github-plain {
+  max-width: 8em;
+}
+
+.devicon-bootstrap-plain {
+  width: 20em;
+}
+
+
+
+
+
+
+div.col.s1 {
+  text-align: center;
+  width: 7%;
+  margin: auto;
+  height: 45px;
+}
+
+div.col.s2 {
+  text-align: center;
+  background: black;
+  color: white;
+  width: 27%;
+  border: 1.5px solid black;
+  padding: 1px;
+  margin: auto;
+  height: 45px;
+}
+
+div.icon {
+  text-align: center;
+  background: none;
+  color: white;
+  width: 27%;
+  border: none;
+  padding: 1px;
+  margin: auto;
+height: 45px;
+}
+
+div.container {
+
+}
+
+.devicon-github-plain {
+  max-width: 8em;
+  fill: #black;
+}
+
+
+div.col.s2:hover {
+  background: none;
+  color: black;
+}
+
+div.col.s8 {
+  text-align: center;
+  color: black;
+  width: 1.5%;
+  height: 28px;
+  margin: auto;
+}
+
+div.col.s3 {
+  text-align: center;
+  color: black;
+  width: 32%;
+  height: 25px;
+  padding: 1px;
+  margin: auto;
+  height: 28px;
+}
+
+div.col.s4 {
+  text-align: center;
+  background: black;
+  color: white;
+  width: 32%;
+  height: 28px;
+  border: 1.5px solid black;
+  margin: auto;
+}
+
+div.col.s4:hover {
+  background: none;
+  color: black;
+}
+
+div.col.s5 {
+  text-align: center;
+  color: black;
+  width: 15%;
+  height: 28px;
+  margin: auto;
+}
+
+div.col.s6 {
+  text-align: center;
+  color: black;
+  width: 1%;
+  height: 28px;
+  margin: auto;
+}
+
+div.col.s7 {
+  text-align: center;
+  color: black;
+  width: 27%;
+  height: 28px;
+  padding: 1px;
+  margin: auto;
+}
+
+div.col.s9 {
+  text-align: center;
+  color: black;
+  width: 7%;
+  height: 28px;
+  margin: auto;
+}
+
+div.col.s10 {
+  text-align: center;
+  color: black;
+  width: 1.5%;
+  height: 28px;
+  margin: auto;
+}
+
+.blank {
+  background: #e7e5e4;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  height: 10px;
+}
+
+.blank1 {
+  height: 20px;
+}
+
+.blank5 {
+  background: none;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  height: 10px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
