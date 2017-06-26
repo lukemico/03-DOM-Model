@@ -1,0 +1,83 @@
+h1 {
+  background-color: White;
+  text-align: Center;
+  font-family: 'Codystar', cursive;
+  color: #EDA1DF;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 128px;
+  padding: 20px 20px 0 20px;
+  margin: 0;
+}
+h3 {
+  background-color: White;
+  text-align: Center;
+  font-family: Arial;
+  color: #5C4176;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 0 20px 20px 20px;
+  border-bottom: 40px;
+  margin: auto;
+}
+body {
+  margin: 5px;
+  background-color: #E7F9F9;
+  color: #000000;
+  font-family: sans-serif;
+}
+.game {
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 960px;
+  height: 960px;
+  padding: 20px;
+  margin-left: -500px;
+  margin-top: -650px;
+  margin-bottom: -200px;
+}
+.container {
+  background-color: #ffffff;
+  width: 960px;
+  height: 960px;
+  border-top: 20px;
+  border-color: #00ff00;
+  border-width: 2px;
+  margin: 20px;
+  box-sizing: inherit;
+}
+.square {
+  display: block;
+  float: left;
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  border: 6px solid #EDA1DF;
+  margin: 4px;
+}
+footer {
+  background-color: White;
+  text-align: Center;
+  font-family: Arial;
+  color: #5C4176;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 45px;
+  padding: 30px 20px 30px 20px;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
