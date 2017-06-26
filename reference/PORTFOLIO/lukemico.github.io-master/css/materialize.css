@@ -31,8 +31,8 @@ body {
 
 .headshot {
    border-radius: 50%;
-   width: 12%;
-   height: 12%;
+   width: 10%;
+   height: 10%;
 }
 
 h1 {
@@ -2747,6 +2747,19 @@ h2 {
   padding: 0px 50px;
   text-align: center;
   text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 30px;
+  color: white;
+}
+
+h3.greeting {
+  font-family: 'Rock Salt', cursive;
+  font-size: 14px;
+  line-height: 110%;
+  margin: 1rem 0 1rem 0;
+  color: white;
+  padding: 0px 50px;
+  text-align: center;
   text-rendering: optimizeLegibility;
   margin-bottom: 30px;
   color: white;
