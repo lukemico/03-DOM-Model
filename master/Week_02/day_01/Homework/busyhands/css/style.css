@@ -1,0 +1,29 @@
+nav {
+  background-color: Black;
+  color: White;
+  height: 40px;
+  padding: 20px;
+}
+img.button_blurb {
+  float: right;
+}
+
+div.box1 {
+  display: inline-block;
+}
+div.box2 {
+  display: inline-block;
+}
+div.box3 {
+  display: inline-block;
+}
+
+img.column1 {
+  display: inline-block;
+}
+img.column2 {
+  display: inline-block;
+}
+img.column3 {
+  display: inline-block;
+}

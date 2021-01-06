@@ -1,0 +1,15 @@
+.container {
+  width: 90%;
+  border: 1px solid black;
+  margin: auto;
+  background-color: red;
+}
+.square {
+  width: 30%;
+  display: block;
+  height: 250px;
+  border: 1px solid grey;
+  background-color: Black;
+  padding: 5px;
+  margin: auto;
+}

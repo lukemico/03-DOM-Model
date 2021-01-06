@@ -1,0 +1,27 @@
+<!-- The profile page -->
+
+<h2>
+  <%= @animal["species"] %>
+</h2>
+
+
+<p>
+  Description: <% @animal["description"] %>
+</p>
+
+<p>
+  IMage:
+  <img src="<%=  @animal['image']%>" alt="image">
+</p>
+
+<%#= @animal %>
+<!-- <!- CTRL + SHIFT + . _> -->
+
+<div class="controls">
+  <a href="/animals/<%= @animal['id'] %>/edit">
+    Edit this animal
+  </a>
+  <a href="/animals/<%= @animal['id'] %>/delete">
+    Delete this animal
+  </a>
+</div>

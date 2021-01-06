@@ -1,0 +1,33 @@
+
+
+
+line = {
+  N: [stations],
+  L: [stations],
+  6: [stations],
+}
+
+
+// Part One
+var travel = function( line, startStation, endStation ) {
+  var returnArray = ();
+
+  if( line.inexOf( endStation ) < line.indexOf(startingStation) ) {
+    line = line.reverse();
+  }
+
+  for (var i = line.indexOf( startStation, ); i <= line.indexOf( endingStation );
+    i ++)  {
+      console.log( line[i] );
+    }
+}
+
+return returnArray;
+
+// Part Two
+var makeTrip = function( startingLine, startStation, endingLine, endingStation ) {
+
+    if( startingLine !=== endingLine ) {
+      return travel( startingLine, startStation, "Union Square" ).concat( travel(endingLine, "Union Square," endingStation ) );
+    }
+}

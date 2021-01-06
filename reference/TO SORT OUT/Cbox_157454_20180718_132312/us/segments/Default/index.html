@@ -1,0 +1,1759 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+
+	<title>[[PAGE_NAME]]</title>
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<style type="text/css">
+
+		body { width: 100% !important; background-color: #FAFAFA; padding: 0; margin: 0; }
+
+		a,a.aapl-link,a.aapl-link:link {text-decoration:none;padding:0;outline:0 ;}
+		a.aapl-link:hover {text-decoration:underline !important; }
+
+		#aapl-eyebrow a, #aapl-footer, .aapl-container a, #aapl-footer a, a { color: inherit; }
+		#mobile-top section, #mobile-bottom section { mso-hide: all; }
+		.show_me_always { visibility: visible; }
+		.preheader-hide { display: none !important; mso-hide: all !important; }
+
+		/*
+        Media queries will be ignored by most non-mobile clients.
+        Query parameters will further ensure correct targeting.
+        */
+
+		/* Tablet (not large size, ie. iPad Pro) */
+		@media only screen and ( max-device-width: 768px ) {
+			* { text-rendering: optimizelegibility; }
+			body { -webkit-text-size-adjust: 110%; }
+			td { line-height: 1.3em !important; }
+			.aapl-container { -webkit-text-size-adjust: 106%; line-height: 1.2em !important; padding-left: 28px !important; padding-right: 28px !important; }
+			#aapl-footer { -webkit-text-size-adjust: 120%; line-height: 1.2em !important; }
+		}
+
+		/* Retina Images */
+		/*@media 	only screen and ( min-device-width: 569px ) and ( -webkit-min-device-pixel-ratio: 2 ),
+        only screen and ( min-device-width: 569px ) and ( min-device-pixel-ratio: 2 ) {
+            img { visibility: hidden; }
+            .more { visibility: visible; }
+            .more,
+            .aapl-link img { visibility: visible !important; }
+        }*/
+
+		/* Mobile Styles */
+		@media only screen and (max-device-width: 568px) {
+			#desktop { display: none !important; }
+			#mobile-top { width: 100% !important; max-width: 100% !important; background: #ffffff; max-height: none !important; float: none !important; overflow: visible !important; height: inherit !important; display: block !important; margin: 0 auto !important; }
+			#mobile-bottom { width: 100% !important; max-width: 100% !important; max-height: none !important; float: none !important; overflow: visible !important; height: inherit !important; display: block !important; margin: 0 auto !important; }
+			#mobile-wrapper { width: 100% !important; max-width: 100% !important; background: #ffffff; max-height: none !important; float: none !important; overflow: visible !important; height: inherit !important; display: block !important; margin: 0 auto !important; }
+			/* RESET */
+			html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, abbr, article, aside, command, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time { margin: 0; padding: 0 }
+			h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, th, figcaption { font-size: 1em; font-weight: normal; font-style: normal }
+			fieldset, iframe { border: none }
+			caption, th { text-align: left }
+			table { border-collapse: collapse; border-spacing: 0 }
+			article, aside, footer, header, hgroup, nav, section, figure, figcaption { display: block; }
+			body { background-color: #ffffff; min-width: 320px !important }
+			sup { line-height: 0; font-size: 70%; }
+
+			/* crn */
+			.mobile { width: 100%; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #111111; font-size: 16px; line-height: 25px; font-weight: 400; -webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; }
+			.mobile .mobile-copy { letter-spacing: -0.015em; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 26px; color: #111111; -webkit-font-smoothing: antialiased; }
+			.mobile a { color: #0070c9; cursor: pointer; -webkit-tap-highlight-color: rgba(0.3, 0.3, 0.3, 0.3); }
+
+			.mobile a:hover { text-decoration: underline; }
+			.mobile .grid { padding: 0 20px; }
+
+			.mobile .center { text-align: center; margin: 0 auto; }
+			.mobile .left-align { text-align: left; }
+
+			.mobile strong { font-weight: bold; }
+			.mobile .m-w-hero { padding: 65px 20px 57px; }
+			.mobile .hero-logo-wrapper { margin: 0 auto 26px; }
+			.mobile .hero-headline-wrapper { margin: 0 auto 37px; }
+			.mobile .hero-image-wrapper { margin: 0 auto 23px; }
+			.mobile .hero-copy-wrapper { margin: 0 auto 3px; padding: 0 3px; letter-spacing: -0.025em; }
+			.mobile .hero-links-wrapper { margin: 0; }
+			.mobile .mobile-copy.mobile-links { line-height: 30px; }
+
+			.mobile .find_love-headline { margin: 0 0 18px; }
+			.mobile .find_love-copy { padding: 0 25px 14px 20px; }
+			/*.mobile .find_love-image { margin: 33px 0 0; }*/
+
+			.mobile .enjoy_place-logo { margin-bottom: 36px; }
+			.mobile .enjoy_place-headline { margin: 0 0 16px; }
+			.mobile .enjoy_place-copy { margin: 0 auto 58px; padding-right: 31px; }
+			.mobile .enjoy_place-copy_2 { font-size: 14px; line-height: 21px;}
+			.mobile .enjoy_place-copy_3 { font-size: 14px; line-height: 23px;}
+
+			.mobile .guide-headline { margin: 88px 0 15px; }
+			.mobile .guide-copy {line-height: 25px; }
+
+			.mobile .fun_apps-headline { margin: 90px 0 12px; }
+			.mobile .fun_apps-copy { margin: 0 auto 33px; }
+			.mobile .fun_apps-image { margin: 0 auto 14px; text-align: center; }
+			.mobile .fun-apps-thumbnails { display: inline-block; margin: 0; padding: 0; }
+			.mobile .fun-apps-thumbnail { display: inline-block; margin: 0; padding: 0; float: left; }
+
+			.mobile .what_else-headline { margin: 90px 0 33px; }
+
+			.mobile .mobile-section .platter { background-color: #F2F2F2; padding: 40px 45px 35px 20px; margin: 0 auto 20px; }
+			.mobile .mobile-section .platter .mobile-copy { font-size: 14px; line-height: 20px; }
+			.mobile .mobile-bottom .mobile-section .mobile-copy { font-size: 14px; line-height: 20px; }
+			.mobile .mobile-section .platter .mobile-icon { margin: 0 0 14px; }
+			.mobile .watch_anywhere {
+				overflow: hidden;
+				width: 100%;
+				height: 223px;
+				background: url(https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_watch_anywhere_2x.jpg) no-repeat center center;
+				background-size: 414px 223px;
+			}
+			.mobile .hero-icon-wrapper {  }
+			.mobile .hero-headline-wrapper {  }
+			.mobile .hero-image-wrapper {  }
+
+			.clearfix:after {
+				content: " "; /* Older browser do not support empty content */
+				visibility: hidden !important;
+				display: block !important;
+				height: 0;
+				clear: both !important;
+			}
+
+			/* crn */
+
+
+			.mobile div.body {
+				width: 100% !important;
+				max-width: 414px !important;
+				max-height: none !important;
+				float: none !important;
+				overflow: hidden;
+				position: relative;
+				margin: 0 auto;
+				background-color: #ffffff;
+			}
+			.mobile-bottom { background-color: #f2f2f2; }
+			.mobile-bottom div.body { padding-top: 0; background-color: #f2f2f2; }
+			.mobile-bottom div.body p { padding: 0; }
+			.mobile .divider { border-top: 1px solid #f2f2f2; }
+			.mobile p.link { margin-top: 22px; }
+			/*.mobile img { display: block; background-position: 50% 0; background-repeat: no-repeat; background-size: 100% 100%; margin: auto; }*/
+			.mobile img.more { display: inline-block; margin: 0; }
+			.mobile .shop-btn { display: inline-block; margin-top: 23px; }
+			.mobile .m-hero-6 { display: block; width: 80%;  margin: auto; text-align: left; }
+			.mobile .m-hero-5 { display: none !important; text-align: left; }
+			.mobile .w-e p.link { margin-top: 8px; }
+			.mobile .best-place p.link { margin-top: 8px;}
+			.mobile .w-h .m-image { margin-top: 30px;}
+			.mobile .w-b { padding-top: 0; }
+			.mobile .w-b p.link { margin-top: 10px;}
+			.mobile .m-buystrip { text-align: left; padding-left: 18px; padding-right: 18px; margin-bottom: 28px; }
+			.mobile .m-buystrip span { font-size: 14px; }
+			.mobile .m-buystrip-header { margin-bottom: 5px; }
+			.mobile .m-buystrip-header img { margin-left: 0; margin-right: 0; }
+			.mobile .m-buystrip-1 .link { margin-top: 10px; }
+			.mobile .m-buystrip-2 .link { margin-top: 10px; }
+			.mobile .m-buystrip-3 .link { margin-top: 10px; }
+			.mobile .m-buystrip-3 { margin-bottom: 34px; }
+			.mobile .m-buystrip-3 .m-buystrip-header { margin-bottom: 8px; }
+			.mobile .m-buystrip-sub { line-height: 21px; }
+
+			.mobile .aapl-footer { color: #888888; padding: 0 18px; }
+			.mobile .aapl-footer a { color: #888888; text-decoration: none; white-space: nowrap; }
+			.mobile .aapl-footer .divider { border-color: #D6D6D6; }
+			.mobile .aapl-lowbrow { font-size: 11px; padding: 8px 0; text-align: center; }
+			.mobile .aapl-lowbrow span { padding: 0 10px; }
+			.mobile .aapl-legal { font-size: 11px; line-height: 14px; padding: 12px 0 29px 0; text-align: left; }
+			.mobile .aapl-legal .sosumi { line-height: 1.67; padding-bottom: 17px; }
+			.mobile .aapl-legal a.link { color: #555555; }
+			.mobile .aapl-legal a.special-link:hover { text-decoration: underline !important; }
+			.mobile .aapl-legal p { margin-bottom: 9px; }
+			.mobile .aapl-legal span { padding: 0 6px; }
+
+
+
+
+			@media only screen and (max-device-width: 320px) {
+				.mobile .m-hero-5 { display: block !important; margin-left: 5%; }
+				.mobile .m-hero-6 { display: none; }
+			}
+
+		}
+
+		/* iphone 6 plus */
+		@media only screen and (min-device-width: 414px) {}
+
+	</style>
+
+	<!--[if gte mso 9]>
+	<style type="text/css">
+		table, td, div, p { font-family: Lucida Sans, Lucida Sans Unicode, Lucida Grande, Arial, Helvetica, Verdana, sans-serif !important; line-height: normal !important }
+		sup { font-size: 100% !important; }
+		.outlook-leading { line-height: 22px; !important }
+		#aapl-footer{ line-height:1.34em; !important }
+		.sm-link{font-size: 10px; !important}
+	</style>
+	<![endif]-->
+	<!--[if lte mso 7]>
+	<style type="text/css">
+		table, td, div, p { font-family: Lucida Grande, Lucida Sans, Lucida Sans Unicode, Arial, Helvetica, Verdana, sans-serif !important; line-height: normal }
+	</style>
+	<![endif]-->
+
+</head>
+
+<body style="margin:0; padding:0;">
+
+<!-- GO_TO_WEB -->
+<div style="position:absolute; max-height:0; font-size:0;text-indent: -999px;">[[WEB_OPEN]]</div>
+
+<!-- MOBILE_VERSION -->
+<div id="mobile-top" class="mobile mobile-top" style="width:0; height:0; max-height:0; float:left; overflow:hidden; display:none;">
+	<div class="body">
+
+		<!-- HERO -->
+		<section class="m-hero" style="text-align: center;">
+			<div class="m-w-hero">
+
+				<!-- M_TEXT_READER -->
+				<div style="display:none !important; font-size:0; line-height:1; max-height:0; max-width:0; opacity:0; overflow: hidden;">
+					See movies and shows in brilliant 4K HDR. Explore the Apple TV app. And let Siri do the searching while you sit back and watch. This is TV in a whole new light.
+				</div>
+
+				<!-- HERO-LOGO -->
+				<div class="hero-logo-wrapper mobile-image-wrapper">
+					<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_logo_appletv_2x.jpg" width="83" height="37" border="0" alt="Apple TV" /><img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/4K_compact_2x.gif" width="50" height="28" border="0" alt="4K"  />
+				</div>
+
+				<!-- HERO-HEADLINE -->
+				<div class="hero-headline-wrapper">
+					<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_welcome_2x.png" width="224" height="64" border="0" alt="Welcome to the 4K HDR era."  />
+
+				</div>
+
+				<!-- HERO-IMAGE -->
+				<div class="hero-image-wrapper">
+					<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_hero_2x.jpg" width="279" height="217" border="0" alt="" />
+				</div>
+
+				<!-- HERO-COPY -->
+				<div class="hero-copy-wrapper mobile-copy">
+					<p class="mobile-hero-copy" style="font-size: 18px;">
+						Experience movies and shows in amazing 4K HDR. Explore everything you love to watch all in one place on the Apple TV app. And sit back and relax while Siri does the searching for you. 4K HDR is here. And it’s brilliant.
+					</p>
+				</div>
+
+				<!-- HERO-LINK -->
+				<div class="hero-links-wrapper mobile-copy">
+					<p class="mobile-copy mobile-links">
+						<a href="[[CLIK_M_VIEWGUIDE1_LINK]]">View the user guide<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/34_chevron_007_alpha_2x.png" width="12" height="10" style="display:inline; margin:0;" border="0" alt="" class="more"></a>
+					</p>
+				</div>
+
+				<!-- HERO-POST_SCRIPT_IMAGE -->
+				<div class="hero-copy-wrapper" style="margin-top: 33px;">
+					<a href="[[CLIK_M_KINGSMAN_LINK]]">
+						<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_kingsman_2x.png" width="156" height="28" alt="Kingsman: The Golden Circle is available for pre-order on iTunes">
+					</a>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- FIND_LOVE-SECTION -->
+		<section class="mobile-section">
+
+			<!-- FIND_LOVE-HEADLINE -->
+			<div class="find_love-headline grid">
+				<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_find_2x.png" width="170" height="55" border="0" alt="Find what you love in 4K."  />
+			</div>
+
+			<!-- FIND_LOVE-COPY -->
+			<div class="find_love-copy m-content grid">
+				<p class="" style="margin-top: 0; font-size: 17px; line-height: 25px;">
+					Enjoy a growing collection of 4K&nbsp;HDR movies and shows. And as previously purchased HD movies in your iTunes Movies library become available in 4K HDR, they will automatically update for free.
+				</p>
+			</div>
+
+			<!-- FIND_LOVE-LINK -->
+			<div class="m-content grid">
+				<p class="link" style="margin-top: 0;">
+					<a href="[[CLIK_M_4KITUNES_LINK]]" class="aapl-link">
+						See 4K HDR movies on iTunes<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/34_chevron_007_alpha_2x.png" width="12" height="10" style="display:inline; margin:0;" border="0" alt="" class="more" />
+					</a>
+				</p>
+			</div>
+		</section>
+
+		<section class="mobile-section clearfix">
+
+			<div class="center" style="width: 320px; height: 232px; margin-top: 33px; vertical-align: top;">
+
+				<div style="width: 155px; display: inline-block; height: 232px; margin: 0; padding: 0; float: left;">
+					<div style="margin: 0; padding: 0 0 10px 0; height: 111px;">
+						<!-- Stranger -->
+						<a href="[[CLIK_M_NETFLIX1_LINK]]">
+							<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_netflix_stranger_2x.jpg" width="155" height="111" border="0" alt="Stranger Things 2"/>
+						</a>
+					</div>
+
+					<div style="margin: 0; padding: 0; height: 111px;">
+						<!-- Ozark -->
+						<a href="[[CLIK_M_NETFLIX2_LINK]]">
+							<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_netflix_ozark_2x.jpg" width="155" height="111" border="0" alt="Ozark" />
+						</a>
+					</div>
+				</div>
+
+
+				<div style="display: inline-block; width: 155px; height: 232px; float: left; margin-left: 10px; margin-bottom: 98px;">
+					<!-- Despicable Me -->
+					<a href="[[CLIK_M_DESPICABLE_LINK]]">
+						<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_despic_me3_2x.jpg" width="155" height="232" border="0" alt="Despicable Me 3"/>
+					</a>
+				</div>
+			</div>
+
+		</section>
+
+
+
+		<!-- ENJOY_PLACE-SECTION -->
+		<section class="mobile-section">
+
+			<!-- ENJOY_PLACE-LOGO -->
+			<div class="enjoy_place-logo mobile-image-wrapper grid">
+				<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_hero_icon_2x.png" width="91" height="54" border="0" alt="" />
+			</div>
+
+			<!-- ENJOY_PLACE-HEADLINE -->
+			<div class="enjoy_place-headline mobile-image-wrapper grid">
+				<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_enjoy_2x.png" width="201" height="91" border="0" alt="Enjoy all your entertainment in one place." />
+			</div>
+
+			<!-- ENJOY_PLACE-COPY_1 -->
+			<div class="enjoy_place-copy mobile-copy grid" style="margin-bottom: 34px;">
+				<p class="mobile-copy" style="line-height: 25px;">
+					The Apple TV app lets you browse movies, shows, handpicked recommendations, and more from over 60 video services. All without switching from one app to the next. And it’s already on your new Apple TV, so all you need to do is get watching.
+				</p>
+			</div>
+
+			<!-- ENJOY_PLACE-IMAGE -->
+			<div class="" style="margin: 0 auto 34px; text-align: center;">
+				<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_watch_now_2x.jpg" width="278" height="164" border="0" alt="" />
+			</div>
+
+			<!-- ENJOY_PLACE-COPY_2 -->
+			<div class="mobile-copy grid">
+				<p class="mobile-copy enjoy_place-copy_2" style="line-height: 20px;">
+					The Watch Now tab serves up your favorite movies, shows, and handpicked recommendations. The Library tab is home to all of your previous purchases and current rentals. And the Store tab is where you’ll find supported apps and discover the latest movies and TV shows.
+				</p>
+			</div>
+
+			<!-- ENJOY_PLACE-IMAGE -->
+			<div class="watch_anywhere" style="margin: 48px auto 36px;">
+				<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/i.png" alt="" border="0" style="width: 100%; overflow: hidden; height: 223px;">
+			</div>
+
+			<!-- ENJOY_PLACE-COPY_3 -->
+			<div class="mobile-copy grid" style="margin: 0 auto 8px;">
+				<p class="mobile-copy enjoy_place-copy_3" style="line-height: 20px;">
+					The Apple TV app is on iPhone and iPad, too. So if you don’t have time to finish a movie or show at home, you can pick up where you left off — wherever you go.
+				</p>
+			</div>
+
+			<!-- ENJOY_PLACE-LINK -->
+			<div class="mobile-copy grid" style="margin: 0 auto 20px;">
+				<p class="mobile-copy" style="font-size: 14px;">
+					<a href="[[CLIK_M_TVAPP_LINK]]" class="aapl-link" style="display:inline-block; border: 0; outline: 0; text-decoration: none;">
+						Learn more about the Apple TV app<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/28_chevron_007_alpha_2x.png" width="12" height="8">
+					</a>
+				</p>
+			</div>
+
+		</section>
+
+		<!-- GUIDE-SECTION -->
+		<section class="mobile-section" style="">
+
+			<!-- GUIDE-HEADLINE -->
+			<div class="guide-headline mobile-image-wrapper grid" style="">
+				<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_let_2x.png" width="261" height="29" border="0" alt="Let Siri be your guide." />
+			</div>
+
+			<!-- GUIDE-COPY -->
+			<div class="mobile-copy grid" style="margin: 0 auto 25px;">
+				<p class="guide-copy mobile-copy">
+					The Siri Remote lets you interact with your Apple TV 4K using simple voice commands. To talk to Siri, hold down the button with the microphone icon and ask away.
+				</p>
+			</div>
+
+			<!-- GUIDE-IMAGE -->
+			<div class="" style="margin: 0 auto; text-align: center;">
+				<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_siri_quotes_2x.jpg" width="288" height="426" border="0" alt="Watch Wonder Woman | Set the heat to 68 degrees | Put on the Celtics game | Play the number one song from March 12, 1988 | Find Amy Adams movies | Show me 4K HDR movies | Play a song I’d like" />
+			</div>
+
+		</section>
+
+		<!-- FUN_APPS-SECTION -->
+		<section class="mobile-section">
+
+			<!-- FUN_APPS-HEADLINE -->
+			<div class="fun_apps-headline mobile-image-wrapper grid" style="">
+				<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_download_2x.png" width="191" height="61" border="0" alt="Download apps to up the fun." />
+			</div>
+
+			<!-- FUN_APPS-COPY -->
+			<div class="mobile-copy grid" style="padding-right: 15px;">
+				<p class="fun_apps-copy mobile-copy" style="line-height: 25px;">
+					Visit the App Store on your Apple TV to discover a great selection of games and apps —  for fitness, kids, travel, and more.
+				</p>
+			</div>
+
+			<!-- FUN_APPS-IMAGE -->
+			<div class="fun_apps-image">
+				<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_download_apps_2x.jpg" width="280" height="164" border="0" alt="" />
+			</div>
+			<div style="font-size: 14px; text-align: center; margin-bottom: 32px;">F1 2016</div>
+
+			<!-- FUN_APPS-IMAGE -->
+			<div class="clearfix center" style="">
+				<div class="fun-apps-thumbnails" style="width: 320px;">
+					<div class="fun-apps-row1">
+						<div class="fun-apps-thumbnail" style="width: 152px;" >
+							<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_game_2x.png" width="127" height="78" border="0" alt="Morphite" style="margin: 0 16px 0 25px;" />
+							<p class="mobile-copy" style="padding-top: 11px; font-size: 14px; text-align: center; width: 127px; margin-left: 25px;">
+								Morphite
+							</p>
+						</div>
+						<div class="fun-apps-thumbnail" style="width: 168px; text-align: left;">
+							<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_fitness_2x.png" width="127" height="78" border="0" alt="Streaks Workout" style="text-align: left; margin: 0 25px 0 16px;" />
+							<p class="mobile-copy" style="padding-top: 11px; font-size: 14px; text-align: center; width: 159px; margin-right: 8px;">
+								Streaks Workout
+							</p>
+						</div>
+					</div>
+
+					<div class="fun-apps-row2">
+						<div class="fun-apps-thumbnail" style="width: 168px;">
+							<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_lifestyle_2x.png" width="127" height="78" border="0" alt="Dr. Seuss - Read to Me"  style="margin: 10px 16px 0 25px;" />
+							<p class="mobile-copy" style="padding-top: 11px; font-size: 14px; text-align: center; margin-left: 8px;">
+								Dr. Seuss &ndash; Read to&nbsp;Me
+							</p>
+						</div>
+						<div class="fun-apps-thumbnail" style="width: 152px;">
+							<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_cooking_2x.png" width="127" height="78" border="0" alt="Airbnb" style="text-align: left; margin: 10px 25px 0 0;"  />
+							<p class="mobile-copy" style="padding-top: 11px; font-size: 14px; text-align: center; width: 127px; margin-right: 25px;">
+								Airbnb
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- WHAT_ELSE-SECTION -->
+		<section class="mobile-section" style="">
+
+			<!-- WHAT_ELSE-HEADLINE -->
+			<div class="what_else-headline mobile-image-wrapper grid">
+				<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_see_what_else_2x.png" width="248" height="60" border="0" alt="See what else Apple TV 4K can do." />
+			</div>
+
+			<!-- WHAT_ELSE-PLATTER_1 -->
+			<div class="platter">
+				<div class="mobile-icon mobile-image-wrapper" style="">
+					<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_airplay_icon_2x.png" width="50" height="50" border="0" alt="AirPlay" />
+				</div>
+				<div class="mobile-copy">
+					<p class="mobile-copy">
+						<strong>Share with AirPlay.</strong> Stream content to your Apple TV from your iPhone or iPad. Swipe up from the bottom of the screen on your iOS device to open Control Center, then tap Screen Mirroring and select your Apple TV.
+					</p>
+				</div>
+			</div>
+
+			<!-- WHAT_ELSE-PLATTER_2 -->
+			<div class="platter" style="padding-right: 40px;">
+				<div class="mobile-icon mobile-image-wrapper" style="">
+					<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_tv_icon_2x.png" width="50" height="50" border="0" alt="AppleTV" />
+				</div>
+				<div class="mobile-copy">
+					<p class="mobile-copy">
+						<strong>Make your iPhone your remote.</strong> Go to Settings on your iOS device, select Control Center, then choose Customize Controls. Tap the Add button next to Apple TV Remote. Next, swipe up from the bottom of your iOS device to open Control Center, tap the Apple TV Remote, choose your Apple TV from the list, then enter the four-digit code that appears on your TV screen.
+					</p>
+				</div>
+			</div>
+
+			<!-- WHAT_ELSE-PLATTER_3 -->
+			<div class="platter" style="">
+				<div class="mobile-icon mobile-image-wrapper" style="">
+					<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_listen_icon_2x.png" width="50" height="50" border="0" alt="Apple AirPods" />
+				</div>
+				<div class="mobile-copy">
+					<p class="mobile-copy">
+						<strong>Listen in private.</strong> Use the same iCloud account as your iOS device, and your AirPods will automatically pair with Apple TV 4K. Just take them out of their case and put them on. To pause your show, simply remove them from your ears.
+					</p>
+				</div>
+			</div>
+
+			<!-- WHAT_ELSE-PLATTER_4 -->
+			<div class="platter" style=" padding-bottom: 35px; margin-bottom: 35px; padding-right: 26px;">
+				<div class="mobile-icon mobile-image-wrapper" style="margin-bottom: 10px;">
+					<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_homekit_icon_2x.png" width="50" height="50" border="0" alt="Apple Home" />
+				</div>
+				<div class="mobile-copy">
+					<p class="mobile-copy" style="font-size: 14; line-height: 23px;">
+						<strong>Control your smart home remotely.</strong> Shut your garage door. Control your home’s heat or air conditioning. Double-check the locks. Apple TV lets you use the Home app on your iOS device to control HomeKit-enabled accessories remotely.
+					</p>
+				</div>
+			</div>
+
+		</section>
+
+	</div>
+</div>
+
+<!-- MOBILE_FOOTER -->
+<div id="mobile-wrapper" class="mobile mobile-wrapper" style="width:0;height:0;max-height:0;float:left;overflow:hidden;display:none;">
+
+	<div class="mobile-bottom">
+		<div class="body">
+
+			<!-- GET_ENUF-SECTION -->
+			<section class="mobile-section grid" style="padding-top: 40px;">
+
+				<!-- GET_ENUF-HEADLINE -->
+				<div class="mobile-image-wrapper" style="">
+					<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_still_2x.png" width="240" height="27" border="0" alt="Still can't get enough?" />
+				</div>
+
+				<!-- GET_ENUF-COPY -->
+				<div class="mobile-copy" style="margin: 12px auto 7px;">
+					<p class="mobile-copy" style="padding-right: 20px;">
+						If you want to learn even more about your new Apple TV 4K, you’ll find it all in the user guide.
+					</p>
+				</div>
+
+				<!-- GET_ENUF-LINKS -->
+				<div class="mobile-copy" style="margin: 0 auto 60px;">
+					<p class="mobile-copy">
+						<a href="[[CLIK_M_VIEWGUIDE2_LINK]]">View the user guide<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/28_chevron_007_alpha_2x.png" width="12" height="8"></a>
+						<br />
+						<a href="[[CLIK_M_IBOOKSGUIDE_LINK]]">Download in iBooks<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/28_chevron_007_alpha_2x.png" width="12" height="8"></a>
+					</p>
+				</div>
+
+			</section>
+
+			<!-- ACCESORIES-SECTION -->
+			<section class="mobile-section grid" style="margin-bottom: 64px;">
+
+				<!-- ACCESORIES-HEADLINE -->
+				<div class="mobile-image-wrapper" style="margin: 0 0 15px;">
+					<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_accessories_2x.png" width="136" height="22" border="0" alt="Accessories" />
+				</div>
+
+				<!-- ACCESORIES-COPY -->
+				<div class="mobile-copy" style="margin: 0 auto 6px; padding-right: 30px;">
+					<p class="mobile-copy">
+						Game controllers, speakers, and headphones are just some of the accessories that will make your Apple TV gaming and entertainment experience even better.
+					</p>
+				</div>
+
+				<!-- ACCESORIES-LINKS -->
+				<div class="mobile-copy" style="margin: 0 auto; padding-bottom: 60px; border-bottom: 1px solid #D6D6D6;">
+					<p class="mobile-copy">
+						<a href="[[CLIK_M_ACCESSORIES_LINK]]">Learn more<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/28_chevron_007_alpha_2x.png" width="12" height="8"></a>
+					</p>
+				</div>
+
+			</section>
+
+			<!-- APPLECARE-SECTION -->
+			<section class="mobile-section grid" style="margin-bottom: 60px;">
+
+				<!-- APPLECARE-LOGO -->
+				<div class="mobile-image-wrapper" style="margin-bottom: 20px;">
+					<a href="[[CLIK_M_APPLECARE_IMG]]">
+						<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_applecare_icon_2x.png" width="63" height="63" border="0" alt="AppleCare Protection Plan" />
+					</a>
+				</div>
+
+				<!-- APPLECARE-HEADLINE -->
+				<div class="mobile-image-wrapper" style="margin-bottom: 15px;">
+					<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/m_appletv4k_applecare_2x.png" width="115" height="23" border="0" alt="AppleCare" />
+				</div>
+
+				<!-- APPLECARE-COPY -->
+				<div class="mobile-copy" style="margin: 0 auto 7px;">
+					<p class="mobile-copy">
+						The AppleCare Protection Plan provides service and support from the people who know your Apple TV best.
+					</p>
+				</div>
+
+				<!-- APPLECARE-LINKS -->
+				<div class="mobile-copy" style="margin: 0 auto 0;">
+					<p class="mobile-copy">
+						<a href="[[CLIK_M_APPLECARE_LINK]]">Learn more<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/28_chevron_007_alpha_2x.png" width="12" height="8"></a>
+					</p>
+				</div>
+
+			</section>
+
+		</div>
+	</div>
+
+	<div id="mobile-bottom" class="mobile mobile-bottom" style="width:0;height:0;max-height:0;float:left;overflow:hidden;display:none;">
+
+		<div class="body" style="overflow:hidden;">
+			<section class="aapl-footer">
+				<div class="divider"></div>
+				<div class="aapl-lowbrow">
+					<a href="[[CLIK_M_BNAV_SHOP]]">Shop Online</a><span style="color: #D6D6D6;">|</span><a href="[[CLIK_M_BNAV_FIND]]">Find a Store</a><span style="color: #D6D6D6;">|</span>1-800-MY-APPLE
+				</div>
+
+				<div class="divider"></div>
+
+				<div class="aapl-lowbrow">
+					<a href="[[CLIK_M_BNAV_APP]]">Get the Apple Store App</a>
+				</div>
+
+				<div class="divider"></div>
+
+				<div class="aapl-legal">
+					<p style="margin: 0;">
+
+						<a class="special-link link" style="font-style: italic;" href="[[CLIK_M_LEGALDESPICABLE_LINK]]"><span style="font-style: italic; padding: 0px;">Despicable Me 3</span></a> will be available on iTunes beginning November 21, 2017. <span style="font-style: italic; padding: 0px;">Despicable Me</span> 3 © 2017 Universal Studios. All rights reserved. <a class="special-link link" style="font-style: italic;" href="[[CLIK_LEGALKINGSMAN_LINK]]"><span style="font-style: italic; padding: 0px;">Kingsman: The Golden Circle</span></a> is available for pre-order on iTunes. <span style="font-style: italic; padding: 0px;">Kingsman: The Golden Circle</span> © 2017 Twentieth Century Fox Film Corporation. All rights reserved. Watch <span style="font-style: italic; padding: 0px;">Star Trek: Discovery</span> on CBS All Access with subscription. Watch <span style="font-style: italic; padding: 0px;">The Good Place</span> on NBC. <span style="font-style: italic; padding: 0px;">Stranger Things</span> and <span style="font-style: italic; padding: 0px;">Ozark</span> available on Netflix with subscription.
+
+						<br /><br />
+						TM and © 2017 Apple Inc. One Apple Park Way, <br>MS 96-DM, Cupertino, CA 95014.
+						<br /><br />
+						<a class="link" href="http://www.apple.com/legal/" style="color:#555555;">All Rights Reserved</a><span style="color: #D6D6D6;">&nbsp;|&nbsp;</span><a class="link" href="http://www.apple.com/privacy/privacy-policy/" style="color:#555555;">Privacy Policy</a><span style="color: #D6D6D6;">&nbsp;|&nbsp;</span><a class="link" href="https://appleid.apple.com/" style="color:#555555;">My Apple ID</a><br /><br />
+						If you prefer not to receive commercial email from Apple, or if you’ve changed your email address, please <a class="link" href="[[UNSUBSCRIBE]]">click&nbsp;here</a>.
+					</p>
+				</div>
+
+			</section>
+		</div>
+
+	</div>
+
+</div>
+
+<!-- DESKTOP_VERSION -->
+<div id="desktop" class="desktop" style="display:table; width:100%; border-spacing:0; border-collapse:collapse; margin:auto 0; background-color:#FFFFFF;">
+	<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="margin: 0 auto; background-color:#FFFFFF;">
+
+		<!-- DESKTOP_BODY -->
+		<tr>
+			<td align="center" class="aapl-container">
+
+				<!-- HERO-SECTION -->
+				<table width="702" cellspacing="0" cellpadding="0" border="0" align="center">
+
+					<!-- HERO-SPACER_1 -->
+					<tr>
+						<td height="80" style="width: 80px;">&nbsp;</td>
+					</tr>
+
+					<!-- HERO-ICON -->
+					<tr>
+						<td align="center">
+							<div class="hero-icon-wrapper">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/logo_appletv_2x.jpg" width="96" height="43" border="0" alt="AppleTV" /><img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/4K_large_2x.gif" width="58" height="32" border="0" alt="4K" />
+								</picture>
+							</div>
+						</td>
+					</tr>
+
+					<!-- HERO-SPACER_2 -->
+					<tr>
+						<td height="11" style="height: 11px; line-height: 0;">&nbsp;</td>
+					</tr>
+
+					<!-- HERO-HEADLINE -->
+					<tr>
+						<td align="center">
+							<div class="hero-headline-wrapper">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_welcome_2x.png" width="276" height="78" border="0" alt="Welcome to the 4K HDR era." />
+								</picture>
+							</div>
+						</td>
+					</tr>
+
+					<!-- -SPACER_2 -->
+					<tr>
+						<td height="30" style="height: 30px;">&nbsp;</td>
+					</tr>
+
+					<!-- HERO_IMAGE -->
+					<tr>
+						<td align="center">
+							<div class="hero-image-wrapper">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_hero_2x.jpg" width="701" height="545" border="0" alt="" />
+								</picture>
+							</div>
+						</td>
+					</tr>
+
+					<!-- -SPACER_3 -->
+					<tr>
+						<td height="38" style="height: 38px; line-height: 0;">&nbsp;</td>
+					</tr>
+
+					<!-- HERO_COPY -->
+					<tr>
+						<td align="center" style="padding: 0;">
+							<div class="outlook-leading" style=" padding: 0 30px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 19px; line-height: 27px; color: #111111; -webkit-font-smoothing: antialiased; letter-spacing: -0.03em;">
+								<p style="margin: 0;">
+									Experience movies and shows in amazing 4K HDR. Explore everything you love to watch all in one place on the Apple TV app. And sit back and relax while Siri does the searching for you. 4K HDR is here. And it’s brilliant.
+								</p>
+							</div>
+						</td>
+					</tr>
+
+					<!-- HERO-SPACER_4.0 -->
+					<tr>
+						<td height="11" style="height: 11px; line-height: 0; font-size: 0;">&nbsp;</td>
+					</tr>
+
+					<!-- HERO_LINK -->
+					<tr>
+						<td align="center" style="padding: 0;">
+							<div class="outlook-leading" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 19px; line-height: 32px; color: #111111; -webkit-font-smoothing: antialiased; letter-spacing: -0.025em;">
+								<a href="[[CLIK_VIEWGUIDE1_LINK]]" class="aapl-link" style="color:#0070c9; text-decoration: none;">View the user guide<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/38_chevron_007_alpha_2x.png" width="12" height="12"></a>
+							</div>
+						</td>
+					</tr>
+
+					<!-- HERO-SPACER_4.1 -->
+					<tr>
+						<td height="30" style="height: 30px;">&nbsp;</td>
+					</tr>
+
+					<!-- HERO_POST_SCRIPT_IMAGE -->
+					<tr>
+						<td align="center" style="padding: 0;">
+							<div style="">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<a href="[[CLIK_KINGSMAN_LINK]]">
+										<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_kingsman_2x.png" width="313" height="13" alt="Kingsman: The Golden Circle is available for pre-order on iTunes">
+									</a>
+								</picture>
+							</div>
+						</td>
+					</tr>
+
+				</table>
+
+				<!-- WHAT_YOU_LOVE-SECTION -->
+				<table width="702" cellspacing="0" cellpadding="0" border="0" align="center">
+
+					<!-- WHAT_YOU_LOVE-SPACER_0 -->
+					<tr>
+						<td height="123" style="height: 123px;" colspan="2">&nbsp;</td>
+					</tr>
+
+					<!-- WHAT_YOU_LOVE-HEADLINE-&-COPY -->
+					<tr>
+
+						<!-- WHAT_YOU_LOVE-HEADLINE -->
+						<td style="width: 351px;" width="351" align="left" valign="top">
+							<div style="padding: 2px 10px 0 0;">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_find_2x.png" width="198" height="68" style="display:block;" border="0" alt="Find what you love in 4K." />
+								</picture>
+							</div>
+						</td>
+
+						<!-- WHAT_YOU_LOVE-COPY&LINK -->
+						<td style="width: 351px;" width="351" align="left" >
+							<table cellpadding="0" cellspacing="0" border="0">
+
+								<!-- COPY -->
+								<tr>
+									<td>
+										<div class="" style="padding: 0 10px 0 11px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 25px; -webkit-font-smoothing: antialiased; color: #111111; letter-spacing: -0.02em;">
+											<p style="margin: 0;">
+												Enjoy a growing collection of 4K&nbsp;HDR movies and shows. And as previously purchased HD movies in your iTunes Movies library become available in 4K HDR, they will automatically update for&nbsp;free.
+											</p>
+										</div>
+									</td>
+								</tr>
+
+								<!-- SPACER -->
+								<tr>
+									<td height="13" style="height:13px; font-size: 0; line-height: 0;">&nbsp;</td>
+								</tr>
+
+								<!-- LINK -->
+								<tr>
+									<td>
+										<div class="" style="padding: 0 0 0 10px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 25px; -webkit-font-smoothing: antialiased; color: #111111; letter-spacing: -0.02em;">
+											<a href="[[CLIK_4KITUNES_LINK]]" class="aapl-link" style="color:#0070c9; text-decoration: none;">See 4K HDR movies on iTunes<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/34_chevron_007_alpha_2x.png" width="12" height="10"></a>
+										</div>
+									</td>
+								</tr>
+
+							</table>
+						</td>
+
+					</tr>
+
+					<!-- WHAT_YOU_LOVE-SPACER_1 -->
+					<tr>
+						<td height="60" colspan="2">&nbsp;</td>
+					</tr>
+
+					<!-- WHAT_YOU_LOVE-IMAGES -->
+					<tr>
+
+						<td align="left" valign="top">
+							<table cellspacing="0" cellpadding="0" border="0">
+
+								<!-- Stranger -->
+								<tr>
+									<td>
+										<div style="padding: 0 10px 0 0;">
+											<a href="[[CLIK_NETFLIX1_LINK]]" style="display: block;">
+												<picture>
+													<source media="(max-device-width: 568px)" srcset="data:">
+													<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_netflix_stranger_2x.jpg" width="340" height="244" style="display:block; margin:0;" border="0" alt="Stranger Things 2" />
+												</picture>
+											</a>
+										</div>
+									</td>
+								</tr>
+
+								<!-- SPACER -->
+								<tr>
+									<td height="19px" style="height: 19px; line-height: 0; font-size: 0;">&nbsp;</td>
+								</tr>
+
+								<!-- Ozark -->
+								<tr>
+									<td>
+										<div style="padding: 0 10px 0 0;">
+											<a href="[[CLIK_NETFLIX2_LINK]]" style="display: block;">
+												<picture>
+													<source media="(max-device-width: 568px)" srcset="data:">
+													<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_netflix_ozark_2x.jpg" width="340" height="244" style="display:block; margin:0;" border="0" alt="Ozark" />
+												</picture>
+											</a>
+										</div>
+									</td>
+								</tr>
+
+							</table>
+						</td>
+
+						<td align="right" valign="top">
+							<div style="padding: 0 0 0 10px;">
+
+								<!-- Despicable Me -->
+								<a href="[[CLIK_DESPICABLE_LINK]]" style="display: block;">
+									<picture>
+										<source media="(max-device-width: 568px)" srcset="data:">
+										<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_despic_me3_2x.jpg" width="338" height="507" style="display:block; margin:0;" border="0" alt="Despicable Me 3" />
+									</picture>
+								</a>
+
+							</div>
+						</td>
+
+					</tr>
+
+					<!-- WHAT_YOU_LOVE-SPACER_2 -->
+					<tr>
+						<td height="67" colspan="2" style="height: 67px;">&nbsp;</td>
+					</tr>
+
+				</table>
+
+				<!-- ENJOY_PLACE-SECTION -->
+				<table width="702" cellspacing="0" cellpadding="0" border="0" align="center">
+
+					<!-- ENJOY_PLACE-ICON -->
+					<tr>
+						<td valign="top" align="left">
+							<div class="">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/hero_icon_2x.png" width="93" height="56" style="display:block; margin:0;" border="0" alt="" />
+								</picture>
+							</div>
+						</td>
+					</tr>
+
+					<!-- ENJOY_PLACE-SPACER_1 -->
+					<tr>
+						<td height="22" colspan="2">&nbsp;</td>
+					</tr>
+
+					<!-- ENJOY_PLACE-HEADLINE-&-COPY -->
+					<tr>
+
+						<!-- ENJOY_PLACE-HEADLINE -->
+						<td style="width: 340px;" width="340" align="left" valign="top">
+							<div style="padding: 5px 10px 0 0;">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_enjoy_2x.png" width="201" height="103" style="display:block;" border="0" alt="Enjoy all your entertainment in one place." />
+								</picture>
+							</div>
+						</td>
+
+						<!-- ENJOY_PLACE-COPY -->
+						<td style="width: 340px;" width="340" valign="top" align="left" >
+							<div class="" style="padding: 2px 0px 0 11px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 25px; -webkit-font-smoothing: antialiased; color: #111111; letter-spacing: -0.025em;">
+								<p style="margin: 0;">
+									The Apple TV app lets you browse movies, shows, handpicked recommendations,<br />and more from over 60 video services.<br />All without switching from one app to the next. And it’s already on your new Apple TV, so all you need to do is get watching.
+								</p>
+							</div>
+						</td>
+
+					</tr>
+
+					<!-- ENJOY_PLACE-SPACER_2 -->
+					<tr>
+						<td height="50" style="height: 50px;" colspan="2">&nbsp;</td>
+					</tr>
+
+					<!-- ENJOY_PLACE-IMAGE_1 -->
+					<tr>
+						<td colspan="2" align="center" style="">
+							<div class="" style="padding: 0 0 0;">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_watch_now_2x.jpg" width="702" height="413" style="display:block; margin:0;" border="0" alt="" />
+								</picture>
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td height="30" style="height: 30px; font-size: 0; line-height: 0;">&nbsp;</td>
+					</tr>
+
+					<!-- ENJOY_PLACE-COPY_1 -->
+					<tr>
+						<td colspan="2" width="702" align="center" >
+							<div class="" style="padding: 0 40px 0; letter-spacing: -0.015em; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; -webkit-font-smoothing: antialiased; color: #111111;">
+								<p style="margin: 0;">
+									The Watch Now tab serves up your favorite movies, shows, and handpicked recommendations. The Library tab is home to all of your previous purchases and current rentals. And the Store tab is where you’ll find supported apps and discover the latest movies and TV shows.
+								</p>
+							</div>
+						</td>
+					</tr>
+
+					<!-- ENJOY_PLACE-SPACER_3 -->
+					<tr>
+						<td height="49" style="height: 49px;" colspan="2">&nbsp;</td>
+					</tr>
+
+					<!-- ENJOY_PLACE-IMAGE_2 -->
+					<tr>
+						<td colspan="2" align="center" style="">
+							<div class="" style="padding: 0 0 0;">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_watch_anywhere_2x.jpg" width="522" height="334" style="display:block; margin:0;" border="0" alt="" />
+								</picture>
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td height="30" style="height: 30px; font-size: 0; line-height: 0;">&nbsp;</td>
+					</tr>
+
+					<!-- ENJOY_PLACE-COPY_2 -->
+					<tr>
+						<td colspan="2" width="702" align="center" >
+							<div class="" style="padding: 0 98px 0; letter-spacing: -0.025em; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; -webkit-font-smoothing: antialiased; color: #111111;">
+								<p style="margin: 0;">
+									The Apple TV app is on iPhone and iPad, too. So if you don’t have time to finish a movie or show at home, you can pick up where you left off — wherever you go.
+								</p>
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td height="10" style="height: 10px; font-size: 0; line-height: 0;">&nbsp;</td>
+					</tr>
+
+					<!-- ENJOY_PLACE-LINK_2 -->
+					<tr>
+						<td colspan="2" width="712" align="center" >
+							<div class="" style="letter-spacing: -0.025em; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; -webkit-font-smoothing: antialiased; color: #111111;">
+								<a href="[[CLIK_TVAPP_LINK]]" class="aapl-link" style="color:#0070c9; text-decoration: none;">Learn more about the Apple TV app<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/28_chevron_007_alpha_2x.png" width="12" height="8"></a>
+							</div>
+						</td>
+					</tr>
+
+					<!-- ENJOY_PLACE-SPACER_4 -->
+					<tr>
+						<td height="107" style="height: 107px;" colspan="2">&nbsp;</td>
+					</tr>
+
+				</table>
+
+				<!-- GUIDE-SECTION -->
+				<table width="702" cellspacing="0" cellpadding="0" border="0" align="center">
+
+					<!-- GUIDE-CONTENT_1 -->
+					<tr>
+
+						<!-- GUIDE-HEADLINE_1 -->
+						<td width="50%" valign="top" align="left">
+							<div class="" style="padding: 3px 10px 0 2px;">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_let_2x.png" width="305" height="34" style="display:block; margin:0;" border="0" alt="Let Siri be your guide." />
+								</picture>
+							</div>
+						</td>
+
+						<!-- GUIDE-COPY_1 -->
+						<td width="50%">
+							<div class="" style="width: 337px; padding: 0 0 0 11px; letter-spacing: -0.02em; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 25px; -webkit-font-smoothing: antialiased; color: #111111;">
+								<p style="margin: 0;">
+									The Siri Remote lets you interact with your Apple TV 4K using simple voice commands. To talk to Siri, hold down the button with the microphone icon, say what you want, and Siri will take it from there.
+								</p>
+							</div>
+						</td>
+
+					</tr>
+
+					<!-- SPACER -->
+					<tr>
+						<td height="60" style="height: 60px;" colspan="2">&nbsp;</td>
+					</tr>
+
+					<!-- GUIDE-IMAGE -->
+					<tr>
+						<td colspan="2" align="center" style="">
+							<div class="">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_quotes_remote_2x.jpg" width="690" height="561" style="display:block; margin:0;" border="0" alt="Watch Wonder Woman | Set the heat to 68 degrees | Put on the Celtics game | Play the number one song from March 12, 1988 | Find Amy Adams movies | Show me 4K HDR movies | Play a song I’d like" />
+								</picture>
+							</div>
+						</td>
+					</tr>
+
+					<!-- GUIDE-SPACER_ -->
+					<tr>
+						<td height="44" style="height: 44px;" colspan="2">&nbsp;</td>
+					</tr>
+
+				</table>
+
+				<!-- FUN_APPS-SECTION -->
+				<table width="702" cellspacing="0" cellpadding="0" border="0" align="center">
+
+					<!-- FUN_APPS-CONTENT -->
+					<tr>
+
+						<!-- FUN_APPS-HEADLINE -->
+						<td width="50%" colspan="3" valign="top" align="left">
+							<div class="" style="padding: 1px 16px 0 0;">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_download_2x.png" width="225" height="67" style="display:block; margin:0;" border="0" alt="Download apps to up the fun." />
+								</picture>
+							</div>
+						</td>
+
+						<!-- FUN_APPS-COPY -->
+						<td width="50%" colspan="4" valign="top" align="left">
+							<div class="" style="padding: 0 0 0 22px; letter-spacing: -0.025em; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 25px; -webkit-font-smoothing: antialiased; color: #111111;">
+								<p style="margin: 0;">
+									Visit the App Store on your Apple TV to discover a great selection of games and apps — for fitness, kids, travel, and more.
+								</p>
+							</div>
+						</td>
+
+					</tr>
+
+					<!-- SPACER -->
+					<tr>
+						<td height="83" style="height: 83px;" colspan="7">&nbsp;</td>
+					</tr>
+
+					<!-- FUN_APPS-IMAGE -->
+					<tr>
+						<td colspan="7" align="center" style="">
+							<div class="">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_download_apps_2x.jpg" width="702" height="413" style="display:block; margin:0;" border="0" alt="" />
+								</picture>
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td height="10" style="height: 10px; font-size: 0; line-height: 0;">&nbsp;</td>
+					</tr>
+
+					<!-- FUN_APPS-COPY_2 -->
+					<td colspan="7" valign="top" align="left">
+						<div class="" style="padding: 0 0 0 0; text-align: center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 25px; -webkit-font-smoothing: antialiased; color: #111111;">
+							<p style="margin: 0;">
+								F1 2016
+							</p>
+						</div>
+					</td>
+
+					<tr>
+						<td colspan="7" height="26">&nbsp;</td>
+					</tr>
+
+					<!-- FUN_APPS-TYPES -->
+					<tr>
+						<td>
+							<picture>
+								<source media="(max-device-width: 568px)" srcset="data:">
+								<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_game_2x.png" width="160" height="96" style="display:block; margin:0;" border="0" alt="Morphite" />
+							</picture>
+						</td>
+
+						<td width="23" style="width: 21px;">&nbsp;</td>
+
+						<td>
+							<picture>
+								<source media="(max-device-width: 568px)" srcset="data:">
+								<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_fitness_2x.png" width="160" height="96" style="display:block; margin:0;" border="0" alt="Streaks Workout" />
+							</picture>
+						</td>
+
+						<td width="22" style="width: 20px;">&nbsp;</td>
+
+						<td>
+							<picture>
+								<source media="(max-device-width: 568px)" srcset="data:">
+								<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_lifestyle_2x.png" width="160" height="96" style="display:block; margin:0;" border="0" alt="Dr. Seuss – Read to Me" />
+							</picture>
+						</td>
+
+						<td width="23" style="width: 21px;">&nbsp;</td>
+
+						<td>
+							<picture>
+								<source media="(max-device-width: 568px)" srcset="data:">
+								<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_cooking_2x.png" width="160" height="96" style="display:block; margin:0;" border="0" alt="Airbnb" />
+							</picture>
+						</td>
+					</tr>
+
+					<tr>
+						<td height="6" style="height: 6px; font-size: 0; line-height: 0;">&nbsp;</td>
+					</tr>
+
+					<tr>
+						<td>
+							<div style="text-align: center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 25px; -webkit-font-smoothing: antialiased; color: #111111; letter-spacing: -0.025em;">
+								<p style="margin: 0;">
+									Morphite
+								</p>
+							</div>
+						</td>
+
+						<td width="23" style="width: 21px;">&nbsp;</td>
+
+						<td>
+							<div style="text-align: center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 25px; -webkit-font-smoothing: antialiased; color: #111111; letter-spacing: -0.025em;">
+								<p style="margin: 0;">
+									Streaks Workout
+								</p>
+							</div>
+						</td>
+
+						<td width="22" style="width: 20px;">&nbsp;</td>
+
+						<td>
+							<div style="text-align: center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 25px; -webkit-font-smoothing: antialiased; color: #111111; letter-spacing: -0.025em;">
+								<p style="margin: 0;">
+									Dr. Seuss &ndash; Read to Me
+								</p>
+							</div>
+						</td>
+
+						<td width="23" style="width: 21px;">&nbsp;</td>
+
+						<td>
+							<div style="text-align: center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 25px; -webkit-font-smoothing: antialiased; color: #111111; letter-spacing: -0.025em;">
+								<p style="margin: 0;">
+									Airbnb
+								</p>
+							</div>
+						</td>
+					</tr>
+
+				</table>
+
+				<!-- WHAT_ELSE-SECTION -->
+				<table width="702" cellspacing="0" cellpadding="0" border="0" align="center">
+
+					<!-- WHAT_ELSE-SPACER_1 -->
+					<tr>
+						<td colspan="3" height="105" style="height: 105px;">&nbsp;</td>
+					</tr>
+
+					<!-- WHAT_ELSE-HEADLINE -->
+					<tr>
+						<td colspan="3" valign="top" align="center">
+							<div class="">
+								<picture>
+									<source media="(max-device-width: 568px)" srcset="data:">
+									<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_see_what_else_2x.png" width="495" height="32" style="display:block; margin:0;" border="0" alt="See what else Apple TV 4K can do." />
+								</picture>
+							</div>
+						</td>
+					</tr>
+
+					<!-- WHAT_ELSE-SPACER_2 -->
+					<tr>
+						<td colspan="3" height="42" style="height: 42px;">&nbsp;</td>
+					</tr>
+
+					<!-- ELSE_TOP_PANEL  -->
+					<!-- ELSE_TOP_PANEL Upper Portion -->
+					<tr>
+						<td height="310" width="340" bgcolor="#F2F2F2" valign="top" align="left" style="padding: 0 38px 0 40px; box-sizing: border-box;">
+							<table cellspacing="0" cellpadding="0" border="0">
+
+								<!-- Vertical Spacer -->
+								<tr>
+									<td height="46" style="font-size: 0; line-height: 0;">
+										&nbsp;
+									</td>
+								</tr>
+
+								<!-- ELSE_1-ICON -->
+								<tr>
+									<td>
+										<picture>
+											<source media="(max-device-width: 568px)" srcset="data:">
+											<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_airplay_icon_2x.png" width="50" height="50" style="display:block; margin:0;" border="0" alt="AirPlay" />
+										</picture>
+									</td>
+								</tr>
+
+								<tr>
+									<td height="7" style="height: 7px; line-height: 0; font-size: 0;">&nbsp;</td>
+								</tr>
+
+								<!-- ELSE_1-COPY -->
+								<tr>
+									<td>
+										<div class="" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; -webkit-font-smoothing: antialiased; color: #111111; letter-spacing: -0.015em;">
+											<p style="margin: 0;">
+												<strong>Share with AirPlay.</strong> Stream content to your Apple TV from your iPhone or iPad. Swipe up from the bottom of the screen on your iOS device to open Control Center, then tap Screen Mirroring and select your Apple TV.
+											</p>
+										</div>
+									</td>
+								</tr>
+
+							</table>
+						</td>
+
+						<td bgcolor="#FFFFFF" width="20">
+							&nbsp;
+						</td>
+
+						<td height="310" width="340"  bgcolor="#F2F2F2" valign="top" align="left" style="padding: 0 38px 0 40px; box-sizing: border-box;">
+							<table cellspacing="0" cellpadding="0" border="0">
+
+								<!-- Vertical Spacer -->
+								<tr>
+									<td height="46" style="font-size: 0; line-height: 0;">
+										&nbsp;
+									</td>
+								</tr>
+
+								<!-- ELSE_2-ICON -->
+								<tr>
+									<td>
+										<picture>
+											<source media="(max-device-width: 568px)" srcset="data:">
+											<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_tv_icon_2x.png" width="50" height="50" style="display:block; margin:0;" border="0" alt="AppleTV" />
+										</picture>
+									</td>
+								</tr>
+
+								<tr>
+									<td height="8" style="height: 8px; line-height: 0; font-size: 0;">&nbsp;</td>
+								</tr>
+
+								<!-- ELSE_2- -->
+								<tr>
+									<td>
+										<div class="" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; -webkit-font-smoothing: antialiased; color: #111111; letter-spacing: -0.015em;">
+											<p style="margin: 0;">
+												<strong>Make your iPhone your remote.</strong> Go to Settings on your iOS device, select Control Center, then choose Customize Controls. Tap the Add button next to Apple TV Remote. Next, swipe up from the bottom of your iOS device to open Control Center, tap the Apple TV Remote, choose your Apple TV from the list, then enter the four-digit code that appears on your TV screen.
+											</p>
+										</div>
+									</td>
+								</tr>
+
+							</table>
+						</td>
+					</tr>
+
+
+
+					<!-- ELSE_TOP_PANEL Lower Copy Bottom Padding -->
+					<tr>
+						<td height="30" width="340" bgcolor="#F2F2F2" valign="top" align="left" style="line-height: 0; font-size: 0;">
+							&nbsp;
+						</td>
+						<td height="30" width="20" bgcolor="#FFFFFF" valign="top" align="left" style="line-height: 0; font-size: 0;">
+							&nbsp;
+						</td>
+						<td height="30" width="340" bgcolor="#F2F2F2" valign="top" align="left" style="line-height: 0; font-size: 0;">
+							&nbsp;
+						</td>
+					</tr>
+
+					<!-- WHAT_ELSE-SPACER -->
+					<tr>
+						<td colspan="3" height="20">&nbsp;</td>
+					</tr>
+
+					<!-- ELSE_BOTTOM_PANEL  -->
+					<!-- ELSE_BOTTOM_PANEL Upper Portion -->
+					<tr>
+						<td height="304" width="340" bgcolor="#F2F2F2" valign="top" align="left" style="padding: 0 52px 0 40px; box-sizing: border-box;">
+							<table cellspacing="0" cellpadding="0" border="0">
+
+								<!-- Vertical Spacer -->
+								<tr>
+									<td height="46" style="font-size: 0; line-height: 0;">
+										&nbsp;
+									</td>
+								</tr>
+
+								<!-- ELSE_3-ICON -->
+								<tr>
+									<td>
+										<picture>
+											<source media="(max-device-width: 568px)" srcset="data:">
+											<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_listen_icon_2x.png" width="50" height="50" style="display:block; margin:0;" border="0" alt="Apple AirPods" />
+										</picture>
+									</td>
+								</tr>
+
+								<!-- SPACER -->
+								<tr>
+									<td height="6" style="height: 6px; line-height: 0; font-size: 0;">&nbsp;</td>
+								</tr>
+
+								<!-- ELSE_3-COPY -->
+								<tr>
+									<td>
+										<div class="" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; -webkit-font-smoothing: antialiased; color: #111111; letter-spacing: -0.015em;">
+											<p style="margin: 0;">
+												<strong>Listen in private.</strong> Use the same iCloud account as your iOS device, and your AirPods will automatically pair with Apple TV 4K. Just take them out of their case and put them on. To pause your show, simply remove them from your ears.
+											</p>
+										</div>
+									</td>
+								</tr>
+
+							</table>
+						</td>
+
+						<td bgcolor="#FFFFFF" width="20">
+							&nbsp;
+						</td>
+
+						<td height="304" width="340" bgcolor="#F2F2F2" valign="top" align="left" style="padding: 0 38px 0 40px; box-sizing: border-box;">
+
+							<table cellspacing="0" cellpadding="0" border="0">
+
+								<!-- Vertical Spacer -->
+								<tr>
+									<td height="46" style="font-size: 0; line-height: 0;">
+										&nbsp;
+									</td>
+								</tr>
+
+								<!-- ELSE_4-ICON -->
+								<tr>
+									<td>
+										<picture>
+											<source media="(max-device-width: 568px)" srcset="data:">
+											<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_homekit_icon_2x.png" width="50" height="50" style="display:block; margin:0;" border="0" alt="Apple Home" />
+										</picture>
+									</td>
+								</tr>
+
+								<!-- SPACER -->
+								<tr>
+									<td height="6" style="height: 6px; line-height: 0; font-size: 0;">&nbsp;</td>
+								</tr>
+
+								<!-- ELSE_4- -->
+								<tr>
+									<td>
+										<div class="" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; -webkit-font-smoothing: antialiased; color: #111111; letter-spacing: -0.015em;">
+											<p style="margin: 0;">
+												<strong>Control your smart home remotely.</strong> Shut your garage door. Control your home’s heat or air conditioning. Double-check the locks. Apple TV lets you use the Home app on your iOS device to control HomeKit-enabled accessories remotely.
+											</p>
+										</div>
+									</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+
+
+
+					<!-- ELSE_BOTTOM_PANEL Lower Copy Bottom Padding -->
+					<tr>
+						<td height="30" width="340" bgcolor="#F2F2F2" valign="top" align="left" style="line-height: 0; font-size: 0;">
+							&nbsp;
+						</td>
+						<td height="30" width="20" bgcolor="#FFFFFF" valign="top" align="left" style="line-height: 0; font-size: 0;">
+							&nbsp;
+						</td>
+						<td height="30" width="340" bgcolor="#F2F2F2" valign="top" align="left" style="line-height: 0; font-size: 0;">
+							&nbsp;
+						</td>
+					</tr>
+
+					<!-- WHAT_ELSE-SPACER_3 -->
+					<tr>
+						<td style="height: 20px;" height="20" colspan="3">&nbsp;</td>
+					</tr>
+
+				</table>
+
+
+			</td>
+		</tr>
+		<!-- DESKTOP FOOTER -->
+		<tr>
+			<td valign="top" align="center" class="footer-wrapper" style="margin: 0 auto;">
+
+				<!-- BOTTOM-SECTION -->
+				<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" bg-color="#F2F2F2" style="background-color: #F2F2F2;">
+
+					<!-- BOTTOM-SPACER_1 -->
+					<tr>
+						<td height="65" style="height: 65px;">&nbsp;</td>
+					</tr>
+
+					<!-- DUAL_SECTON -->
+					<tr>
+						<td>
+							<table width="702" cellspacing="0" cellpadding="0" border="0" align="center">
+								<tr>
+
+									<td width="40" style="width:40px !important;;">&nbsp;</td>
+
+									<!-- ENUF-SECTION -->
+									<td valign="top" width="300">
+										<table width="300" cellspacing="0" cellpadding="0" border="0" align="center">
+
+											<!-- ENUF-HEADLINE -->
+											<tr>
+												<td align="left">
+													<div style="padding: 0 0 0;">
+														<picture>
+															<source media="(max-device-width: 568px)" srcset="data:">
+															<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_still_2x.png" width="240" height="27" style="display:block; margin:0;" border="0" alt="Stll can't get enough?" />
+														</picture>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td height="12" style="height: 12px; font-size: 0; line-height: 0;">&nbsp;</td>
+											</tr>
+
+											<!-- ENUF-COPY -->
+											<tr>
+												<td align="left">
+													<div class="" style="padding: 0 45px 0 3px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; -webkit-font-smoothing: antialiased; color: #111111;">
+														<p style="margin: 0;">
+															If you want to learn even more about your new Apple TV 4K, you’ll find it all in the user guide.
+														</p>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td height="7" style="height: 7px; font-size: 0; line-height: 0;">&nbsp;</td>
+											</tr>
+
+											<!-- ENUF-LINK -->
+											<tr>
+												<td height="6" style="height:6px;font-size:0;line-height:0;"></td>
+											</tr>
+											<tr>
+												<td align="left">
+													<div class="" style="letter-spacing: -0.05em; padding: 0 0 0 2px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 14px; -webkit-font-smoothing: antialiased; color: #111111;">
+														<a href="[[CLIK_VIEWGUIDE2_LINK]]" class="aapl-link" style="color:#0070c9; text-decoration: none;">View the user guide<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/28_chevron_007_alpha_2x.png" width="12" height="8"></a>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td height="12" style="height:12px;font-size:0;line-height:0;"></td>
+											</tr>
+											<tr>
+												<td align="left">
+													<div class="" style="letter-spacing: -0.05em; padding: 0 0 0 2px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 14px; -webkit-font-smoothing: antialiased; color: #111111;">
+														<a href="[[CLIK_IBOOKSGUIDE_LINK]]" class="aapl-link" style="color:#0070c9; text-decoration: none;">Download in iBooks<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/28_chevron_007_alpha_2x.png" width="12" height="8"></a>
+													</div>
+												</td>
+											</tr>
+
+										</table>
+									</td>
+
+									<!-- BOTTOM-SPACER_2  -->
+									<td width="22" style="width: 22px !important;">&nbsp;</td>
+
+									<td width="40" style="width:40px;">&nbsp;</td>
+
+									<!-- ACCESORIES-SECTION -->
+									<td valign="top" width="300">
+										<table width="300" cellspacing="0" cellpadding="0" border="0" align="center">
+
+											<tr>
+												<td height="2" style="height: 2px; font-size: 0; line-height: 0;">&nbsp;</td>
+											</tr>
+
+											<!-- ACCESORIES-HEADLINE -->
+											<tr>
+												<td valign="top" align="left">
+													<div class="" style="padding: 0;">
+														<picture>
+															<source media="(max-device-width: 568px)" srcset="data:">
+															<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_accessories_2x.png" width="136" height="22" style="display:block; margin:0;" border="0" alt="Accessories" />
+														</picture>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td height="17" style="height: 17px; font-size: 0; line-height: 0;">&nbsp;</td>
+											</tr>
+
+											<!-- ACCESORIES-COPY -->
+											<tr>
+												<td align="left">
+													<div class="" style="padding: 0 38px 0 0; letter-spacing: -0.025em; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; -webkit-font-smoothing: antialiased; color: #111111;">
+														<p style="margin: 0;">
+															Game controllers, speakers, and headphones are just some of the accessories that will make your Apple TV gaming and entertainment experience even better.
+														</p>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td height="10" style="height: 10px; font-size: 0; line-height: 0;">&nbsp;</td>
+											</tr>
+
+											<!-- ACCESORIES-LINK -->
+											<tr>
+												<td align="left">
+													<div class="" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; -webkit-font-smoothing: antialiased; color: #111111;">
+														<a href="[[CLIK_ACCESSORIES_LINK]]" class="aapl-link" style="color:#0070c9; text-decoration: none;">Learn more<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/28_chevron_007_alpha_2x.png" width="12" height="8"></a>
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+					<!-- APPLE_CARE-SECTION -->
+					<tr>
+						<td>
+							<table width="702" cellspacing="0" cellpadding="0" border="0" align="center">
+
+								<tr>
+									<td height="66" style="height: 66px;" colspan="4">&nbsp;</td>
+								</tr>
+
+								<tr>
+									<td colspan="4">
+										<!-- KEYLINE -->
+										<table bgcolor="#f2f2f2" width="662" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: 0 auto;">
+											<tr><td style="font-size:1px;line-height:1px;border-top:1px solid #d6d6d6;width:700px;padding-left: 20px; padding-right: 20px; text-align: center;" width="662" valign="top">&nbsp;</td></tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr>
+									<td height="66" style="height: 66px;" colspan="4">&nbsp;</td>
+								</tr>
+
+								<!-- APPLE_CARE-CONTENT -->
+								<tr>
+
+									<!-- APPLE_CARE-SPACER -->
+									<td width="42" style="width: 42px;">&nbsp;</td>
+
+									<!-- LOGO -->
+									<td valign="top" align="left">
+										<a href="[[CLIK_APPLECARE_IMG]]">
+											<picture>
+												<source media="(max-device-width: 568px)" srcset="data:">
+												<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_applecare_icon_2x.png" width="63" height="63" style="display:block; margin:0;" border="0" alt="AppleCare Protection Plan" />
+											</picture>
+										</a>
+									</td>
+
+									<!-- APPLE_CARE-SPACER -->
+									<td width="27" style="width: 27px;">&nbsp;</td>
+
+									<!-- APPLE_CARE-HEADLINE-&-COPY -->
+									<td valign="top" align="left">
+										<table cellspacing="0" cellpadding="0" border="0">
+
+											<tr>
+												<td height="2" style="height: 2px; font-size: 0; line-height: 0;">&nbsp;</td>
+											</tr>
+
+											<!-- HEADLINE -->
+											<tr>
+												<td>
+													<div class="" style="padding: 0 0 0;">
+														<picture>
+															<source media="(max-device-width: 568px)" srcset="data:">
+															<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/appletv4k_applecare_2x.png" width="116" height="24" style="display:block; margin:0;" border="0" alt="AppleCare" />
+														</picture>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td height="9" style="height: 9px; font-size: 0; line-height: 0;">&nbsp;</td>
+											</tr>
+
+											<!-- COPY -->
+											<tr>
+												<td>
+													<div class="" style="padding: 0 60px 0 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; -webkit-font-smoothing: antialiased; color: #111111;">
+														<p style="margin: 0;">
+															The AppleCare Protection Plan provides service and support from the people who know your Apple TV best.
+														</p>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td height="14" style="height: 14px; font-size: 0; line-height: 0;">&nbsp;</td>
+											</tr>
+
+											<!-- LINKS -->
+											<tr>
+												<td>
+													<div class="" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; -webkit-font-smoothing: antialiased; color: #111111;">
+														<a href="[[CLIK_APPLECARE_LINK]]" class="aapl-link" style="color:#0070c9; text-decoration: none;">Learn more<img src="https://images.apple.com/dm/us/17/70862EB2-C7F3-4FF5-9AD1-1150BCB99772/i/28_chevron_007_alpha_2x.png" width="12" height="8"></a>
+													</div>
+												</td>
+											</tr>
+
+										</table>
+									</td>
+
+								</tr>
+
+								<!-- APPLE_CARE-SPACER -->
+								<tr>
+									<td height="80" style="height: 80px;">&nbsp;</td>
+								</tr>
+
+							</table>
+						</td>
+					</tr>
+
+					<!-- DESKTOP_FOOTER -->
+					<tr>
+						<td align="center" style="margin: 0 auto; background-color: #f2f2f2;">
+							<!-- KEYLINE -->
+							<table width="712" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#f2f2f2" style="margin: 0 auto; padding: 0 25px;">
+								<tr><td style="font-size:1px;line-height:1px;border-top:1px solid #d6d6d6;width:700px;padding-left: 20px; padding-right: 20px; text-align: center;" width="700" valign="top">&nbsp;</td></tr>
+							</table>
+							<table width="712" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#f2f2f2"  style="margin: 0 auto;">
+								<tr>
+									<td height="20"></td>
+								</tr>
+								<tr>
+									<td align="center" height="15" id="aapl-eyebrow" style="font-weight:400;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#D6D6D6;-webkit-font-smoothing:antialiased;font-size:12px;line-height:1">
+										<a href="[[CLIK_BNAV_SHOP]]" class="aapl-link" style="color:#888888;">Shop Online</a>
+										&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+										<a href="[[CLIK_BNAV_FIND]]" class="aapl-link" style="color:#888888;">Find a Store</a>
+										&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+										<span style="color:#888888;">1-800-MY-APPLE</span>
+										&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+										<a href="[[CLIK_BNAV_APP]]" class="aapl-link" style="color:#888888;">Get the Apple Store App</a>
+									</td>
+								</tr>
+								<tr>
+									<td height="20"></td>
+								</tr>
+
+							</table>
+
+							<!-- KEYLINE -->
+							<table width="712" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#f2f2f2" style="margin: 0 auto; padding: 0 25px;">
+								<tr><td style="font-size:1px;line-height:1px;border-top:1px solid #d6d6d6;width:700px;padding-left: 20px; padding-right: 20px; text-align: center;" width="700" valign="top">&nbsp;</td></tr>
+							</table>
+
+						</td>
+					</tr>
+
+					<!-- SOSUMI_FOOTER -->
+					<tr>
+						<td align="center" style="margin: 0 auto;background-color: #f2f2f2;">
+							<table width="712" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#f2f2f2">
+								<tr>
+									<td align="left" style="padding:21px 25px 30px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight:400;color:#888888;-webkit-font-smoothing:antialiased;" id="aapl-footer">
+										<p style="text-align:left; font-size: 11px; line-height: 14px; margin: 0 0 8px; padding-right: 35px;">
+
+											<a class="aapl-link" style="color:#555555; text-decoration: none;" href="[[CLIK_LEGALDESPICABLE_LINK]]"><span style="font-style: italic; padding: 0px;">Despicable Me 3</span></a> will be available on iTunes beginning November 21, 2017. <span style="font-style: italic; padding: 0px;">Despicable Me</span> 3 © 2017 Universal Studios. All rights reserved. <a class="aapl-link" style="color:#555555; text-decoration: none;" href="[[CLIK_LEGALKINGSMAN_LINK]]"><span style="font-style: italic; padding: 0px;">Kingsman: The Golden Circle</span></a> is available for pre-order on iTunes. <span style="font-style: italic; padding: 0px;">Kingsman: The Golden Circle</span> © 2017 Twentieth Century Fox Film Corporation. All rights reserved. Watch <span style="font-style: italic; padding: 0px;">Star Trek: Discovery</span> on CBS All Access with subscription. Watch <span style="font-style: italic; padding: 0px;">The Good Place</span> on NBC. <span style="font-style: italic; padding: 0px;">Stranger Things</span> and <span style="font-style: italic; padding: 0px;">Ozark</span> available on Netflix with subscription.
+											<br /><br />
+											TM and © [[COPYRIGHT_YEAR]] Apple Inc. One Apple Park Way, MS 96-DM, Cupertino, CA 95014.<br /><br />
+											<a href="http://www.apple.com/legal/" class="aapl-link" style="color:#555555; text-decoration: none;">All Rights Reserved</a>&nbsp;&nbsp;&nbsp;<span style="color:#D6D6D6">|</span>&nbsp;&nbsp;&nbsp;<a href="http://www.apple.com/privacy/privacy-policy/" class="aapl-link" style="color:#555555; text-decoration: none;">Privacy Policy</a>&nbsp;&nbsp;&nbsp;<span style="color:#D6D6D6">|</span>&nbsp;&nbsp;&nbsp;<a href="https://appleid.apple.com/" class="aapl-link" style="color:#555555; text-decoration: none;">My Apple ID</a><br /><br />
+											If you prefer not to receive commercial email from Apple, or if you&rsquo;ve changed your email address, please&nbsp;<a href="[[UNSUBSCRIBE]]" class="aapl-link" style="color:#666666;"><span style="white-space:nowrap; color:#555555;">click&nbsp;here</span></a>.
+										</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+				</table>
+
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+
+</html>
